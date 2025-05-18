@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './App.css';
+import './index.css';
 import Header from './components/Header';
 import NoteInput from './components/NoteInput';
 import NoteList from './components/NoteList';
