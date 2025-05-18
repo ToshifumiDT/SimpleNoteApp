@@ -21,7 +21,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="text-center min-h-screen bg-zinc-800 text-slate-300">
       <Header />
       <NoteInput onAddNote={addNote} />
       <NoteList notes={notes} onDeleteNote={deleteNote} />

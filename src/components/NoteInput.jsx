@@ -15,12 +15,18 @@ function NoteInput({ onAddNote }) {
 
   return (
     <div className="note-input">
-      <textarea
-        placeholder="adding text..."
+      <textarea className="w-2/3 text-zinc-900 bg-zinc-100 rounded-lg p-1"
+        placeholder="add text here..."
         value={inputText}
         onChange={handleChange}
       />
-      <button onClick={handleAdd}>Add</button>
+      <button className="
+      bg-cyan-700 hover:bg-cyan-600 text-white 
+      shadow shadow-gray-950
+      transition-all duration-150
+      hover:-translate-y-0.5 hover:shadow-md
+      ml-3 pl-3 pr-3 rounded-lg
+      " onClick={handleAdd}>Add</button>
     </div>
   );
 }
